@@ -9,7 +9,7 @@ To play against the trained model:
 python checkers_pit.py
 ```
 
-If you plan to train your model or improve the bundled one look at checkers_main.py
+If you plan to train your model or improve the bundled one look at ```checkers_main.py```
 
 ### How to play
 To play against model you need Python and Keras. GPU is strongly recommended to save your time. The code is compatible both with Python 2.7 and Python 3.6. The only reason to use Python 2.7 was AMD GPU support at the early 2018. Since April 2018 you can use Python 3 with AMD and NVidia GPUs. The code was tested on Ubuntu 16.04 and Windows 7/10.
@@ -21,7 +21,7 @@ Then you type a move and wait for the response. Then you type your next move and
 
 ### Pretrained model
 I trained a Keras model (51 iteration, 50-400 episodes per iteration and 50-100 MCTS simulations per turn). The pretrained model can be found in ```pretrained_models/checkers/keras/```. Below is the performance of the model against the 20th iteration of the same model with the number of iterations.
-![alt tag](https://github.com/evg-tyurin/alpha-nagibator/raw/master/pretrained_models/checkers/keras/rev250-1i-45i.png)
+![alt tag](https://github.com/evg-tyurin/alpha-nagibator/raw/master/help/rev250-1i-45i.png)
 
 The performance of the model was estimated as a total result in 100-games match against reference player. Reference player is the 20th iteration of the same model.
 
